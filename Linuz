@@ -1,0 +1,27 @@
+Linuz Navigation and File Systems
+
+pwd (print working directory): Shows your current directory.
+cd (change directory): Changes the current directory.
+cd: Go to your home directory.
+cd ..: Go up one directory.
+cd /path/to/directory: Go to a specific directory.
+ls (list): Lists files and directories in the current directory.
+ls -l: Long listing format (shows details like permissions, size, date).
+ls -a: Show all files, including hidden files (starting with .).
+ls -h: Human-readable file sizes.
+ls -t: Sort by modification time.
+mkdir (make directory): Creates a new directory.
+mkdir directory_name: Creates a directory named directory_name.
+mkdir -p path/to/new/directory: Creates parent directories as needed.
+rmdir (remove directory): Removes an empty directory.
+rm (remove): Removes files or directories.
+rm file_name: Removes a file.
+rm -r directory_name: Removes a directory and its contents (use with caution!).
+rm -rf directory_name: Forcefully removes a directory and its contents (use with extreme caution!).
+touch: Creates an empty file or updates the timestamp of an existing file.
+cp (copy): Copies files and directories.
+cp source_file destination_file: Copies a file.
+cp -r source_directory destination_directory: Copies a directory and its contents.
+mv (move): Moves or renames files and directories.
+mv source_file destination_file: Renames a file.
+mv source_file destination_directory: Moves a file to a directory.
