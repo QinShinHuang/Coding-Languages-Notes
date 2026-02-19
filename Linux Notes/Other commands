@@ -1,0 +1,30 @@
+uname: Displays system information.
+hostname: Displays the hostname of the system.
+date: Displays the current date and time.
+cal: Displays a calendar.
+who: Shows who is logged in.
+ps (process status): Lists running processes.
+ps aux: Shows all processes in detail.
+top: Displays a dynamic real-time view of running processes.
+kill: Terminates a process.
+kill process_id: Kills a process with the given ID.
+df (disk free): Shows disk space usage.
+du (disk usage): Shows disk usage of files and directories.
+
+Permissions:
+chmod (change mode): Changes file permissions.
+chown (change owner): Changes file ownership.
+
+Networking:
+ping: Tests network connectivity to a host.
+ifconfig or ip a: Shows network interface configuration.
+netstat or ss: Shows network connections, routing tables, and interface statistics.
+
+Other Useful Commands:
+man (manual): Displays the manual page for a command.
+man ls: Shows the manual page for the ls command.
+clear: Clears the terminal screen.
+history: Shows a history of previously executed commands.
+exit: Closes the terminal.
+history > history.txt: pipes the results of the command, history to the file history.txt.
+use history to get a list of command then use !# to execute previous command wher # is the line number of the command.
